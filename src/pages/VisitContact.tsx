@@ -108,7 +108,7 @@ export default function VisitContact() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.531238622116!2d-0.1764619!3d51.6135249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761922c1514781%3A0xc07ce9b1f7d5494d!2sDelight%20Kitchen%20Bistro%20%26%20Cafe!5e0!3m2!1sen!2suk!4v1714152843073!5m2!1sen!2suk"
               width="100%"
               height="100%"
-              style={{ border: 0, filter: "sepia(0.45) hue-rotate(5deg) saturate(1.3) brightness(1.05)" }}
+              style={{ border: 0, filter: "grayscale(1) contrast(1.25)", opacity: 0.9 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
