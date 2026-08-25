@@ -62,7 +62,7 @@ function HomeHero() {
 
   return (
     <section className="relative overflow-hidden" style={{ background: "var(--color-primary)" }}>
-      <div className="grid grid-cols-1 md:min-h-[88vh] md:grid-cols-12">
+      <div className="grid grid-cols-1 pt-16 md:min-h-[88vh] md:grid-cols-12 md:pt-20">
         {/* ── Text panel — dark steel, no photo behind it ── */}
         <div className="relative order-2 flex min-w-0 flex-col justify-center gap-8 px-4 py-14 xs:px-5 sm:px-6 md:order-1 md:col-span-6 md:py-0 md:pl-10 lg:col-span-5 lg:pl-12 xl:pl-16">
           {/* Live status strip */}
