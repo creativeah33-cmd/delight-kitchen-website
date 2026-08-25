@@ -77,7 +77,7 @@ export default function OurSpace() {
               />
               <div className="pointer-events-none absolute inset-0" style={{ background: "linear-gradient(to top, rgba(28,24,21,0.5) 0%, transparent 40%)" }} />
             </ArchFrame>
-            <div className="mt-8 max-w-[380px] px-4 text-center">
+            <div className="mx-auto mt-8 max-w-[380px] px-4 text-center">
               <h3 className="font-display text-3xl" style={{ color: "var(--color-primary)" }}>The Arches</h3>
               <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
                 Three signature backlit niches casting a permanent Golden Hour glow across the dining room.
@@ -109,7 +109,7 @@ export default function OurSpace() {
                   />
                   <div className="pointer-events-none absolute inset-0" style={{ background: "linear-gradient(to top, rgba(28,24,21,0.5) 0%, transparent 40%)" }} />
                 </ArchFrame>
-                <div className="mt-6 max-w-[220px] mx-auto text-center px-2">
+                <div className="mx-auto mt-6 max-w-[220px] text-center px-2">
                   <h3 className="font-display text-xl" style={{ color: "var(--color-primary)" }}>{item.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed" style={{ color: "var(--color-text-muted)" }}>{item.desc}</p>
                 </div>
