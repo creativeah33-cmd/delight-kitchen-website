@@ -22,7 +22,7 @@ export function DishCard({ item, index = 0, variant = "card", featured = false }
 
   return (
     <div
-      className="reveal group relative flex h-full flex-col overflow-hidden rounded-2xl border shadow-soft transition-shadow duration-300 hover:shadow-card"
+      className="reveal group relative flex flex-col overflow-hidden rounded-2xl border shadow-soft transition-shadow duration-300 hover:shadow-card"
       style={{
         borderColor: "var(--color-border)",
         background: "var(--color-surface)",
@@ -30,7 +30,7 @@ export function DishCard({ item, index = 0, variant = "card", featured = false }
       }}
     >
       {/* Image */}
-      <div className={`relative overflow-hidden golden-warmth ${featured ? "aspect-[16/11]" : "aspect-[5/4]"}`}>
+      <div className={`relative shrink-0 overflow-hidden golden-warmth ${featured ? "aspect-[16/11]" : "aspect-[5/4]"}`}>
         <img
           src={item.image}
           alt={item.name}

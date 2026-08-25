@@ -25,7 +25,7 @@ export function ArchFrame({ children, className, glowing = false, size = "md" }:
         sizeClasses[size],
         className,
       )}
-      style={{ borderRadius: "50% 50% 4px 4px / clamp(28px, 16%, 100px) clamp(28px, 16%, 100px) 4px 4px" }}
+      style={{ borderRadius: "50% 50% 4px 4px / clamp(28px, 16%, 100px) clamp(28px, 16%, 100px) 4px 4px", background: "var(--color-surface, #F5F2EC)" }}
     >
       {/* Optional amber glow behind the arch (like real LED strip) */}
       {glowing && (

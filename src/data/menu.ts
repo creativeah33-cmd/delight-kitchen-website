@@ -56,7 +56,7 @@ export const MENU: MenuItem[] = [
       "Soft poached eggs over garlicky yoghurt, drizzled with chilli butter and herbs. Served with warm pide.",
     category: "breakfast",
     tags: ["v", "spicy", "popular"],
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+    image: "/images/dishes/turkish-eggs.jpg",
   },
   {
     id: "full-english",
@@ -76,7 +76,7 @@ export const MENU: MenuItem[] = [
       "Toasted English muffin, smoked salmon, free-range poached eggs and our hollandaise.",
     category: "breakfast",
     tags: ["best"],
-    image: "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+    image: "/images/dishes/egg-royale.jpg",
   },
   {
     id: "healthy-breakfast",
@@ -96,7 +96,7 @@ export const MENU: MenuItem[] = [
       "Toasted muffin, wilted spinach, poached eggs, hollandaise. Vegetarian and lovely.",
     category: "breakfast",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+    image: "/images/dishes/egg-florentine.jpg",
   },
   {
     id: "egg-benedict",
@@ -106,7 +106,7 @@ export const MENU: MenuItem[] = [
       "Toasted muffin, halal ham, poached eggs, hollandaise. The classic, done right.",
     category: "breakfast",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80",
+    image: "/images/dishes/egg-benedict.jpg",
   },
   {
     id: "menemen",
@@ -116,7 +116,7 @@ export const MENU: MenuItem[] = [
       "Turkish scrambled eggs cooked with tomatoes, peppers and onion. Served with warm pide. Veggie-friendly.",
     category: "breakfast",
     tags: ["v", "spicy"],
-    image: "https://images.unsplash.com/photo-1495474472207-40f47efd1ba3?w=800&q=80",
+    image: "/images/dishes/menemen.jpg",
   },
   {
     id: "vegan-brunch",
@@ -136,7 +136,7 @@ export const MENU: MenuItem[] = [
       "Berries, honey, banana, or peanut butter and pistachio. Choice of milk — oat, almond or whole.",
     category: "breakfast",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80",
+    image: "/images/dishes/organic-porridge.jpg",
   },
   {
     id: "muesli-bowl",
@@ -168,7 +168,7 @@ export const MENU: MenuItem[] = [
       "Four layers of fluffy vanilla pancake, mixed berries, mascarpone, organic maple syrup. The Instagram one.",
     category: "pancakes",
     tags: ["v", "best", "popular"],
-    image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+    image: "/images/dishes/four-layered-pancake.jpg",
   },
   {
     id: "american-dream",
@@ -208,7 +208,7 @@ export const MENU: MenuItem[] = [
       "Two small pancakes, berries, a drizzle of chocolate or maple. Made for small humans.",
     category: "pancakes",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80",
+    image: "/images/dishes/four-layered-pancake.jpg",
   },
 
   // ───────── FROM THE GRILL ─────────
@@ -230,7 +230,7 @@ export const MENU: MenuItem[] = [
       "Halal lamb shish, grilled with peppers and onion, rice, salad and yoghurt sauce.",
     category: "mains",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
+    image: "/images/dishes/lamb-shish.jpg",
   },
   {
     id: "lamb-chops",
@@ -240,7 +240,7 @@ export const MENU: MenuItem[] = [
       "Three halal lamb chops, grilled, with rice, chips, salad and our pepper sauce.",
     category: "mains",
     tags: ["halal", "best"],
-    image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80",
+    image: "/images/dishes/lamb-chops.jpg",
   },
   {
     id: "rib-eye",
@@ -250,7 +250,7 @@ export const MENU: MenuItem[] = [
       "8oz halal rib-eye, hand-cut chips, grilled tomato, peppercorn butter.",
     category: "mains",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    image: "/images/dishes/rib-eye-steak.jpg",
   },
   {
     id: "sea-bass",
@@ -270,7 +270,7 @@ export const MENU: MenuItem[] = [
       "Scottish salmon, lemon-butter, seasonal greens, new potatoes.",
     category: "mains",
     tags: ["best"],
-    image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+    image: "/images/dishes/salmon-fillet.jpg",
   },
   {
     id: "chicken-escalope",
@@ -280,7 +280,7 @@ export const MENU: MenuItem[] = [
       "Crispy halal chicken escalope, hand-cut chips, house salad, lemon.",
     category: "mains",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+    image: "/images/dishes/chicken-escalope.jpg",
   },
   {
     id: "chicken-curry",
@@ -300,7 +300,7 @@ export const MENU: MenuItem[] = [
       "Rocket, sun-dried tomato, olives, feta, cucumber, lemon, mint. A whole holiday on a plate.",
     category: "mains",
     tags: ["v", "best"],
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+    image: "/images/dishes/mediterranean-salad.jpg",
   },
   {
     id: "smoked-salmon-salad",
@@ -310,7 +310,7 @@ export const MENU: MenuItem[] = [
       "Smoked salmon, smashed avocado, rocket, capers, lemon, toasted seeds.",
     category: "mains",
     tags: ["popular"],
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80",
+    image: "/images/dishes/healthy-breakfast.jpg",
   },
   {
     id: "chicken-caesar",
@@ -320,7 +320,7 @@ export const MENU: MenuItem[] = [
       "Halal chicken, baby gem, parmesan, anchovy dressing, sourdough croutons.",
     category: "mains",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1495474472207-40f47efd1ba3?w=800&q=80",
+    image: "/images/dishes/halloumi.jpg",
   },
   {
     id: "halloumi-wrap",
@@ -340,7 +340,7 @@ export const MENU: MenuItem[] = [
       "Halal chicken, basil pesto, cherry tomatoes, parmesan, penne.",
     category: "mains",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80",
+    image: "/images/dishes/chicken-curry.jpg",
   },
   {
     id: "meat-lasagne",
@@ -350,7 +350,7 @@ export const MENU: MenuItem[] = [
       "Slow-cooked halal beef ragù, béchamel, mozzarella. Comfort on a plate.",
     category: "mains",
     tags: ["halal"],
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    image: "/images/dishes/full-english.jpg",
   },
   {
     id: "veg-lasagne",
@@ -360,7 +360,7 @@ export const MENU: MenuItem[] = [
       "Roasted vegetables, spinach, ricotta, béchamel, mozzarella. Veggie comfort.",
     category: "mains",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+    image: "/images/dishes/vegan-brunch.jpg",
   },
 
   // ───────── COFFEE & MILKSHAKES ─────────
@@ -371,7 +371,7 @@ export const MENU: MenuItem[] = [
     description: "Double ristretto, steamed whole milk. Smooth, soft, daily.",
     category: "drinks",
     tags: ["v", "popular"],
-    image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+    image: "/images/dishes/matcha-latte.jpg",
   },
   {
     id: "cappuccino",
@@ -380,7 +380,7 @@ export const MENU: MenuItem[] = [
     description: "Equal parts espresso, steamed milk and foam. Always with a little heart.",
     category: "drinks",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+    image: "/images/dishes/turkish-coffee.png",
   },
   {
     id: "turkish-coffee",
@@ -407,7 +407,7 @@ export const MENU: MenuItem[] = [
     description: "Vanilla ice cream, Oreo, milk, whipped cream, a whole Oreo on top.",
     category: "drinks",
     tags: ["v", "popular"],
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80",
+    image: "/images/dishes/tropical-smoothie.jpg",
   },
   {
     id: "kinder-shake",
@@ -416,7 +416,7 @@ export const MENU: MenuItem[] = [
     description: "Vanilla ice cream, Kinder Bueno, milk, Nutella drizzle, Bueno on top.",
     category: "drinks",
     tags: ["v", "popular"],
-    image: "https://images.unsplash.com/photo-1495474472207-40f47efd1ba3?w=800&q=80",
+    image: "/images/dishes/muesli-bowl.jpg",
   },
   {
     id: "ferrero-shake",
@@ -425,7 +425,7 @@ export const MENU: MenuItem[] = [
     description: "Vanilla ice cream, Ferrero Rocher, milk, hazelnut, gold dust on top.",
     category: "drinks",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
+    image: "/images/dishes/muesli-bowl.jpg",
   },
   {
     id: "tropical-smoothie",
@@ -445,7 +445,7 @@ export const MENU: MenuItem[] = [
     description: "One free-range poached egg. Add to anything.",
     category: "sides",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    image: "/images/dishes/sourdough-classic.jpg",
   },
   {
     id: "two-scrambled",
@@ -454,7 +454,7 @@ export const MENU: MenuItem[] = [
     description: "Two free-range scrambled eggs, soft and buttery.",
     category: "sides",
     tags: ["v"],
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+    image: "/images/dishes/sourdough-classic.jpg",
   },
   {
     id: "halal-sausage",
@@ -472,7 +472,7 @@ export const MENU: MenuItem[] = [
     description: "One traditional Cumberland pork sausage.",
     category: "sides",
     tags: [],
-    image: "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+    image: "/images/dishes/halal-sausage.jpg",
   },
   {
     id: "halloumi",
